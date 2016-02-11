@@ -1,0 +1,27 @@
+{
+    "name": "Higher School of Economics website state",
+    "description": "Higher School of Economics website state",
+    "homepage_url": "http://www.hse.ru/",
+    "version": "1.0.0",
+    "creator": "norbornen",
+    "content_scripts": [
+    ],
+    "background_scripts": [
+        "main.js"
+    ],
+    "browser_button": {
+        "caption": "Higher School of Economics website state",
+        "tooltipText": "Higher School of Economics website state",
+        "icon": "icons/16x16_b.png",
+        "popup": {
+            "url": "popup.html",
+            "width": 600,
+            "height": 400
+        }
+    },
+	"icons": {
+		"16": "icons/16x16_b.png",
+		"48": "icons/48x48_b.png",
+		"128": "icons/128x128_b.png"
+	}
+}

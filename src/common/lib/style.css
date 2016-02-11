@@ -1,0 +1,45 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+table {
+	width: 100%;
+	margin-right: 10px;
+	_border-spacing: 5px;
+}
+td {
+	vertical-align: top;
+}
+.monospace {
+	font-family: monospace;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+dt,
+dd {
+  line-height: 1.42857143;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+dl.horizontal dt {
+    float: left;
+    width: 85px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+dl.horizontal dd {
+    margin-left: 95px;
+}
