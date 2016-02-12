@@ -56,8 +56,8 @@ HSExtension.prototype = {
                 kango.ui.browserButton.setTooltipText('');
 
                 self[
-                    serverData.perl.BusyServers > 50 || serverData.nginx['Active connections'] > 3000 ? 'iconRed' :
-                    serverData.perl.BusyServers > 30 || serverData.nginx['Active connections'] > 2000 ? 'iconYellow' :
+                    serverData.perl.BusyServers > 50 || serverData.nginx['Active connections'] > 4000 ? 'iconRed' :
+                    serverData.perl.BusyServers > 30 || serverData.nginx['Active connections'] > 3000 ? 'iconYellow' :
                     'iconBlue'
                 ]();
             },
