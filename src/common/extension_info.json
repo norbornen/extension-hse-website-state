@@ -2,7 +2,7 @@
     "name": "Higher School of Economics website state",
     "description": "Higher School of Economics website state",
     "homepage_url": "http://www.hse.ru/",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "creator": "norbornen",
     "content_scripts": [
     ],
